@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -7,19 +8,324 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App {
+  text-align: center;
+  /*background-color: #282c34;*/
+  /*background-color: #282c34;*/
+  background-image: linear-gradient(to top right, #75d6ff, #478096);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.Banner {
+    background-color: rgba(40, 44, 52, 0.9);
+    width: 100vw;
+    height: 150px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.Banner-text {
+    /*top: 70%;*/
+    /*position: inherit;*/
+    vertical-align: middle;
+    font-size: 70px;
+    float: left;
+    padding-left: calc(50vw - 243.26px);
+}
+
+.Footer {
+  background-color: rgba(40, 44, 52, 0.9);
+  width: 100vw;
+  height: 100px;
+  line-height: 60px;
+  display: inline-block;
+  position: absolute;
+  top: calc(100vh - 100px);
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.Row {
+  display: inline-block;
+}
+
+.AboutMeBlurb {
+  background: rgba(40, 44, 52, 0.5);
+  /*border-color: white;*/
+  /*border-width: 20px;*/
+  /*opacity: 0.2;*/
+  border-radius: 3px;
+  padding: 10px;
+  /*margin-top: 10px;*/
+  margin: 10px;
+  margin-bottom: 5px;
+  width: 90vw;
+  /*width: 10vw;*/
+  /*float: right;*/
+  height: inherit;
+  font-size: 18pt;
+}
+
+.Resume {
+  background: rgba(40, 44, 52, 0.5);
+  /*border-color: white;*/
+  /*border-width: 20px;*/
+  /*opacity: 0.2;*/
+  border-radius: 3px;
+  padding: 10px;
+  /*margin-top: 10px;*/
+  margin: 10px;
+  width: 90vw;
+  /*width: 10vw;*/
+  /*float: right;*/
+  height: inherit;
+  animation: Resume-change-color-backwards 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.Resume:hover {
+  /*background: rgba(4, 255, 34, 0.5);*/
+  animation: Resume-change-color 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.Social-links {
+  /*float: right;*/
+  padding-top: 25px;
+  /*padding-right: 10px;*/
+}
+
+.Social-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@keyframes Resume-change-color {
+  from {
+    background: rgba(40, 44, 52, 0.5);
+    transform: scale(1);
+  }
+  to {
+    background: rgba(4, 255, 34, 0.5);
+    transform: scale(1.05);
+  }
+}
+
+@keyframes Resume-change-color-backwards {
+  from {
+    background: rgba(4, 255, 34, 0.5);
+    transform: scale(1.05);
+  }
+  to {
+    background: rgba(40, 44, 52, 0.5);
+    transform: scale(1);
+  }
+}
+
+.JourneyBoard {
+  /*background-color: #b1bde3;*/
+  background: rgba(40, 44, 52, 0.5);
+  /*border-color: white;*/
+  /*border-width: 20px;*/
+  /*opacity: 0.2;*/
+  /*float: left;*/
+  border-radius: 3px;
+  padding: 10px;
+  /*margin-right: 10px;*/
+  /*margin-top: 10px;*/
+  margin: 10px;
+  width: 90vw;
+  font-size: 18pt;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.ProjectList {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  width: 90vw;
+  height: calc(100vh - 400px);
+  overflow-y: scroll;
+}
+
+.ProjectListItem {
+  background: rgba(40, 44, 52, 0.5);
+  border-radius: 3px;
+  margin: 10px;
+  padding: 3px 20px;
+  animation: Project-zoom-out 0.5s;
+  animation-fill-mode: forwards;
+  max-height: 30vh;
+  overflow-y: scroll;
+}
+
+.JourneyBoardDate {
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  font-size: 12pt;
+}
+
+.ProjectDate {
+  padding: 0px;
+  margin: -20px 0px 10px 0px;
+  font-size: 12pt;
+}
+
+.ProjectAbstract {
+  font-size: 18pt;
+}
+
+.ProjectLink {
+  padding-bottom: 10px;
+  font-size: 18pt;
+}
+
+.ProjectLinkText {
+  color: #75d6ff;
+}
+
+.ProjectListItem:hover {
+  animation: Project-zoom-in 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.JourneyList {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: -60px;
+  display: inline-block;
+}
+
+.JourneyListItem {
+  display: inline-block;
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  opacity: 1;
+  animation: Journey-zoom-out 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.JourneyBoardListItemTitle {
+  margin-top: 10px;
+}
+
+.JourneyListItem:hover {
+  /*transform: scale(1.1);*/
+  animation: Journey-zoom-in 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.JourneyPopUp {
+  width: 90vw;
+  background: rgba(40, 44, 52, 0.5);
+  margin: 0px 10px 10px;
+  padding: 10px;
+  border-radius: 3px;
+  animation: Journey-pop-up 0.5s;
+  animation-fill-mode: forwards;
+  font-size: 18pt;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.SectionSelection {
+  z-index: 10;
+  display: inline-block;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: 90vw;
+}
+
+.SectionHeaderResume {
+  float: left;
+  padding: 20px 15vw 20px 15vw;
+  margin-right: 0px;
+}
+
+.SectionHeaderProjects {
+  float: right;
+  padding: 20px 15vw 20px 15vw;
+  margin-left: 0px;
+}
+
+.SectionHeaderResumeSelected {
+  float: left;
+  padding: 20px 15vw 20px 15vw;
+  margin-right: 0px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+.SectionHeaderProjectsSelected {
+  float: right;
+  padding: 20px 15vw 20px 15vw;
+  margin-left: 0px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+@keyframes Journey-pop-up {
+  from {
+    background: rgba(40, 44, 52, 0.1);
+    transform: scale(0.9);
+  }
+  to {
+    background: rgba(40, 44, 52, 0.5);
+    transform: scale(1);
+  }
+}
+
+@keyframes Project-zoom-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes Project-zoom-out {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes Journey-zoom-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes Journey-zoom-out {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 @keyframes App-logo-spin {
