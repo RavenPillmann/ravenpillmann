@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ebf4860386d55332d175c24588a39638",
-    "url": "/ravenpillmann/static/media/sprout.ebf48603.svg"
+    "revision": "de8028ee8c368c03d016c421e80ed52a",
+    "url": "/ravenpillmann/static/media/stroll.de8028ee.svg"
   },
   {
-    "revision": "02f5d60a70270a37e2de",
+    "revision": "7532eb7964081451f896",
     "url": "/ravenpillmann/static/css/main.5e69fa90.chunk.css"
   },
   {
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/ravenpillmann/static/media/minnesota.bba02be5.svg"
   },
   {
-    "revision": "02f5d60a70270a37e2de",
-    "url": "/ravenpillmann/static/js/main.02f5d60a.chunk.js"
+    "revision": "ebf4860386d55332d175c24588a39638",
+    "url": "/ravenpillmann/static/media/sprout.ebf48603.svg"
   },
   {
-    "revision": "de8028ee8c368c03d016c421e80ed52a",
-    "url": "/ravenpillmann/static/media/stroll.de8028ee.svg"
+    "revision": "7532eb7964081451f896",
+    "url": "/ravenpillmann/static/js/main.7532eb79.chunk.js"
   },
   {
     "revision": "347406e9fc4d34643d257ed358c87d9e",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/ravenpillmann/static/media/resume.52189f2e.svg"
   },
   {
+    "revision": "b34eda21b5d448dadbd14ff7519ebc90",
+    "url": "/ravenpillmann/static/media/ai-lsd-slam.b34eda21.pdf"
+  },
+  {
     "revision": "bf4d1e19101393dd8b6051f16135f0c0",
     "url": "/ravenpillmann/static/media/ml-renewable-resources.bf4d1e19.pdf"
   },
@@ -56,7 +60,7 @@ self.__precacheManifest = [
     "url": "/ravenpillmann/static/media/defect-learning-in-manufacturing.5bb29b48.pdf"
   },
   {
-    "revision": "b68163e6cfff0feb868726cf2b549635",
+    "revision": "185677378699a5cba43b01f611ca8cf5",
     "url": "/ravenpillmann/index.html"
   }
 ];

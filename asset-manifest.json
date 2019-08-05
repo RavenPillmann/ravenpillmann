@@ -1,7 +1,7 @@
 {
   "main.css": "/ravenpillmann/static/css/main.5e69fa90.chunk.css",
-  "main.js": "/ravenpillmann/static/js/main.02f5d60a.chunk.js",
-  "main.js.map": "/ravenpillmann/static/js/main.02f5d60a.chunk.js.map",
+  "main.js": "/ravenpillmann/static/js/main.7532eb79.chunk.js",
+  "main.js.map": "/ravenpillmann/static/js/main.7532eb79.chunk.js.map",
   "static/js/1.3c491a70.chunk.js": "/ravenpillmann/static/js/1.3c491a70.chunk.js",
   "static/js/1.3c491a70.chunk.js.map": "/ravenpillmann/static/js/1.3c491a70.chunk.js.map",
   "runtime~main.js": "/ravenpillmann/static/js/runtime~main.706ab89c.js",
@@ -13,11 +13,12 @@
   "static/media/ait.svg": "/ravenpillmann/static/media/ait.347406e9.svg",
   "static/media/logo.svg": "/ravenpillmann/static/media/logo.5d5d9eef.svg",
   "static/media/resume.svg": "/ravenpillmann/static/media/resume.52189f2e.svg",
+  "static/media/ai-lsd-slam.pdf": "/ravenpillmann/static/media/ai-lsd-slam.b34eda21.pdf",
   "static/media/ml-renewable-resources.pdf": "/ravenpillmann/static/media/ml-renewable-resources.bf4d1e19.pdf",
   "static/media/defect-learning-in-manufacturing.pdf": "/ravenpillmann/static/media/defect-learning-in-manufacturing.5bb29b48.pdf",
   "static/media/im.svg": "/ravenpillmann/static/media/im.d0fba78b.svg",
   "static/css/main.5e69fa90.chunk.css.map": "/ravenpillmann/static/css/main.5e69fa90.chunk.css.map",
   "index.html": "/ravenpillmann/index.html",
-  "precache-manifest.f23ede7dfc1b1478f598580d00e6bc91.js": "/ravenpillmann/precache-manifest.f23ede7dfc1b1478f598580d00e6bc91.js",
+  "precache-manifest.fa8dbd5b96584aff6833421299e7f89a.js": "/ravenpillmann/precache-manifest.fa8dbd5b96584aff6833421299e7f89a.js",
   "service-worker.js": "/ravenpillmann/service-worker.js"
 }
