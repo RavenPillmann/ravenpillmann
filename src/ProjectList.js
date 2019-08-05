@@ -2,9 +2,22 @@ import React, {Component} from 'react';
 import ReactSVG from 'react-svg';
 
 
-// TODO: Add mini projects from over the summer
-
 const PROJECTS = [
+	{
+		"title": "Chef Turing: Recipe-to-Image Generative Adversarial Network",
+		"description": "Personal Project",
+		"date": "Summer 2019",
+		"abstract": "As the first part of an overall series of projects to develop an AI-powered food blog, I trained a generative adversarial network to produce images based on lists of ingredients. This included fetching recipes, parsing and tallying text to get the most common ingredients, training a GAN, and deploying the model with a callable API. To accomplish this, I was able to explore the Google Cloud Platform, Apache Spark, Flask, Docker, and Kubernetes.",
+		"link": "https://github.com/RavenPillmann/foodgan",
+	},
+	{
+		"title": "Implementation of Large Scale Direct Monocular SLAM",
+		"description": "Class Project",
+		"date": "Spring 2019",
+		"abstract": "Simultaneous localization and mapping (SLAM) refers to a class of algorithms that discern information of an agents location and surrounding environment from visual imagery, used largely in autonomous robotics. Several approaches to SLAM are first discussed and compared. LSD-SLAM is referenced in greater detail, and key components to LSD-SLAM are implemented to varying degrees of success. Finally, future implementation details are discussed.",
+		"link": require("./ai-lsd-slam.pdf"),
+		"filename": "ai-lsd-slam.pdf",
+	},
 	{
 		"title": "Petfinder.my Adoption Prediction",
 		"description": "Kaggle Competition",

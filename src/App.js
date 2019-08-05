@@ -59,7 +59,7 @@ const careerItems = [
   {
 	key: 5,
 	name: 'The University of Minnesota',
-	hover: 'My interest in artificial intelligence and machine learning eventually led me to pursue a Master of Science degree in Computer Science. At the University of Minnesota, I have had the opportunity to study the data-driven fields I am most interested in, including data mining, machine learning, artificial intelligence, computer vision, and computational biology. I will complete my program by the end of 2019.',
+	hover: 'My interest in artificial intelligence and machine learning eventually led me to pursue a Master of Science degree in Computer Science. At the University of Minnesota, I have had the opportunity to study the data-driven fields I am most interested in, including data mining, machine learning, artificial intelligence, computer vision, and computational biology. Currently, I am a Graduate Research Assistant at the Minnesota Interactive Robotics and Vision Lab, focusing on generative adversarial networks. I will complete my program by the end of 2019.',
 	img: minnesota,
 	url: 'https://twin-cities.umn.edu/',
 	date: 'Fall 2018 - Present'
