@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ravenpillmann.github.io/home",
+  "homepage": "https://ravenpillmann.github.io/ravenpillmann",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
